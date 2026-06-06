@@ -31,5 +31,3 @@ sudo systemctl start jenkins
 
 echo "Checking Jenkins service..."
 sudo systemctl is-active --quiet jenkins && echo "Jenkins is running"
-
-
